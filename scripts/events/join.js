@@ -54,7 +54,7 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি জয় বট🥀😉🤖", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 ↤
+    return api.sendMessage("চলে এসেছি আমি তোমাদের জামাই ফাহিম🥀😉🤖", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 ↤
 🌱আ্ঁ'স্ঁ'সা্ঁ'লা্ঁ'মু্ঁ ও্ঁ'য়া্ঁ'লা্ঁ'ই্ঁ'কু্ঁ'ম্ঁ🥀🌼
 <------------------------------>  
 𝗕𝗼𝘁 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹 !!! 
@@ -67,12 +67,12 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 <<<<<------------------------------>>>>>
 𝗔𝗻𝗱 𝗙𝗼𝗿 𝗔𝗻𝘆 𝗥𝗲𝗽𝗼𝗿𝘁 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗕𝗼𝘁 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿
 
-۞ 𝗢𝘄𝗻𝗲𝗿 : 𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐌𝐄𝐃 𝐉𝐎𝐘
+۞ 𝗢𝘄𝗻𝗲𝗿 : FAHIM ISLAM 
 
 ✷ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: 
-https://www.facebook.com/tor.real.abbu.picci.joy
+https://www.facebook.com/profile.php?id=100046430705172
 
-❊ 𝗣𝗮𝗿𝘀𝗼𝗻𝗮𝗹 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 : https://www.facebook.com/mdjubaet.ahmed.9
+❊ 𝗣𝗮𝗿𝘀𝗼𝗻𝗮𝗹 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 : https://www.facebook.com/profile.php?id=100046430705172
 
 ✲ 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺: 𝐦𝐝𝐣𝐮𝐛𝐚𝐞𝐭𝐚𝐡𝐦𝐞𝐝
 
@@ -110,11 +110,11 @@ https://www.facebook.com/tor.real.abbu.picci.joy
         let avtAnime = (await axios.get(encodeURI(
           `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
         var ok = [
-          'https://i.imgur.com/dDSh0wc.jpeg',
-          'https://i.imgur.com/UucSRWJ.jpeg',
-          'https://i.imgur.com/OYzHKNE.jpeg',
-          'https://i.imgur.com/V5L9dPi.jpeg',
-          'https://i.imgur.com/M7HEAMA.jpeg'
+          '',
+          '',
+          '',
+          '',
+          ''
         ]
         let background = (await axios.get(encodeURI(`${ok[Math.floor(Math.random() * ok.length)]}`), { responseType: "arraybuffer", })).data;
         fs.writeFileSync(pathAva, Buffer.from(avtAnime, "utf-8"));
